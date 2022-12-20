@@ -57,10 +57,9 @@ Run database seeder:
 php artisan db:seed
 ```
 
-Run artisan server:
-
+Run the server:
 ```
-Run artisan server:
+Run artisan server
 ```
 
 Open new terminal, Run the frontend app:
