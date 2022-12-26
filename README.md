@@ -15,13 +15,7 @@ git clone https://github.com/rismawtsa/laravel-dynamic-form
 
 cd laravel-dynamic-form
 ```
-
-Install PHP dependencies:
-
-```
-composer install
-```
-
+## Front End
 Install NPM dependencies:
 
 ```
@@ -34,6 +28,11 @@ Running the frontend
 npm run dev
 ```
 
+The output on your terminal will look like this
+![](docImages/frontend_terminal_output.png)
+
+## Back End
+
 Create `.env` file from the `.env.example` on the root of this project, and change the value of DB config based on the local environment
 
 ```
@@ -43,6 +42,14 @@ DB_PORT=
 DB_DATABASE=
 DB_USERNAME=
 DB_PASSWORD=
+```
+
+Open the new  terminal,
+
+Install PHP dependencies:
+
+```
+composer install
 ```
 
 Run database migrations:
@@ -62,8 +69,9 @@ Run the server:
 Run artisan server
 ```
 
-Open new terminal, Run the frontend app:
+The output on your terminal will look like this
+![](docImages/backend_terminal_output.png)
 
-```
-npm run dev
-```
+Open the browser and enter `http://127.0.0.1:8000`
+
+![](docImages/job_application_form.png)
